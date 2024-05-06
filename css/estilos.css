@@ -166,9 +166,10 @@ body {
     margin: 2rem;
 }
 
-.boton-header a {
+.boton-header  {
     font-weight: 500;
     text-align: center;
+    
     text-decoration: none;
     background-color: rgb(224, 224, 224, 0.5);
     color: white;
@@ -177,11 +178,11 @@ body {
     transition: all 0.2s ease-in;
 }
 
-.boton-header a:visited {
+.boton-header :visited {
     color: white;
 }
 
-.boton-header a:hover {
+.boton-header :hover {
     background-color: rgba(224, 224, 224);
     color: #001B30;
 }
@@ -434,6 +435,9 @@ body {
         font-size: 1rem;
         margin: 0.2rem;
     }
+    .titulo{
+        text-align: center;
+    }
     .titulo h1{
         font-size: 3rem;
     }
@@ -454,7 +458,15 @@ body {
     }
 }
 
-
+.titulo1{
+    padding: 110px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 10px 100px;
+    color: #f1f2f3;
+}
 
 
 
